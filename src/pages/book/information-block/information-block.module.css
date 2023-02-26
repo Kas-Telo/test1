@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.hr {
+    /*margin-top: 16px;*/
+    height: 1px;
+    background: #ebebeb;
+    max-width: 350px;
+}
+
+@media (max-width: 992px) {
+    .hr {
+        max-width: 305px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        row-gap: 8px;
+    }
+}
